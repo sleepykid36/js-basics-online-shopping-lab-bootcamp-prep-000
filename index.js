@@ -50,8 +50,8 @@ function total() {
   var totalInCart = 0
   for (let i = 0; i < cart.length; i++){
     totalInCart += cart[i].itemPrice
-    return totalInCart
   }
+  return totalInCart
 }
 
 function removeFromCart(name) {
