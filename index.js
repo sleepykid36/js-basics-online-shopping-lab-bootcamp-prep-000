@@ -55,7 +55,7 @@ function total() {
 
 function removeFromCart(name) {
   if (!(name in cart)){
-    return 'This item is not in your cart.'
+    return 'That item is not in your cart.'
   }
   for (let i = 0 ; i < cart.length; i++){
     if (name === cart[i].itemName) {
