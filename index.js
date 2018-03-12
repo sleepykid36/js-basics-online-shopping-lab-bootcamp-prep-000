@@ -66,7 +66,7 @@ function removeFromCart(name) {
 
 function placeOrder(ccn) {
   if (!(ccn === int)){
-    
+    return `Sorry, we don't have a credit card on file for you.`
   }
   
 }
