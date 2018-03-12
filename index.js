@@ -59,7 +59,7 @@ function removeFromCart(name) {
   }
   for (let i = 0 ; i < cart.length; i++){
     if (name === cart[i].itemName) {
-      splice 
+      cart.splice
   }
   }
 }
