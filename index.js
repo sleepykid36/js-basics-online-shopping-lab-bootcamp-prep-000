@@ -54,9 +54,10 @@ function total() {
 }
 
 function removeFromCart(name) {
-  if !(name in cart){
+  if (!(name in cart)){
     return 'This item is not in your cart.'
   }
+  if 
 }
 
 function placeOrder() {
