@@ -65,7 +65,7 @@ function removeFromCart(name) {
 
 
 function placeOrder(ccn) {
-  if (!(ccn =  isNan)){
+  if isNan()
     return `Sorry, we don't have a credit card on file for you.`
   }
   
