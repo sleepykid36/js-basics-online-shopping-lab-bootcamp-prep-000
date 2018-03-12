@@ -68,8 +68,8 @@ function placeOrder(ccn) {
  if (isNaN(`${ccn}`)){
    return `Sorry, we don't have a credit card on file for you.`
  } else{
-   let total = 
-	return `Your total is $${totalInCart}, which will be charged to the card ${ccn}.`
+   let total = totalInCart()
+	return `Your total is $${total}, which will be charged to the card ${ccn}.`
     cart = []
     return cart
  }
