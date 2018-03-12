@@ -65,6 +65,8 @@ function removeFromCart(name) {
 
 
 function placeOrder(ccn) {
-  
+  if (!(ccn === int)){
+    
+  }
   
 }
