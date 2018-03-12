@@ -64,6 +64,7 @@ function removeFromCart(name) {
 }
 
 
-function placeOrder() {
+function placeOrder(ccn) {
+  
   
 }
