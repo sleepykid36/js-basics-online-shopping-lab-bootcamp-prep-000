@@ -57,7 +57,11 @@ function removeFromCart(name) {
   if (!(name in cart)){
     return 'This item is not in your cart.'
   }
-  if 
+  for (let i = 0 ; i < cart.length; i++){
+    if (name === cart[i].itemName) {
+      splice 
+  }
+  }
 }
 
 function placeOrder() {
